@@ -12,15 +12,14 @@ namespace XUnitTestProject4.PageObject
         {
             _driver = driver;
         }
-
         private By _clickPopularElement = By.XPath("//a[contains(text(),'Popular')]");
         private By _clickBestSellersElement = By.XPath("//div[2]/div/ul/li[2]/a");
         private By _fadedShrtSlvTshirtElem = By.XPath("//div[2]/div/ul/li[2]/a");
-        private By _addToCartBtnFadedShortsSleev = By.XPath("//div[2]/div/ul/li[2]/a");
+        private By _addToCartBtnFadedShortsSleev = By.XPath("//span[contains(.,'Add to cart')]");
         private By _clickContiniueShoppingBtn = By.XPath("//li[2]/div/div[2]/div[2]/a/span");
         private By _clickProceedToCheckoutBtn = By.XPath("//div[2]/div/ul/li[2]/a");
         private By _clickCloseWindowInAddToCart = By.XPath("///div[4]/div/div/span");
-        private By _clickFadedShortMoreBtn = By.XPath("//div[2]/div/ul/li[2]/a");
+        private By _clickFadedShortMoreBtn = By.XPath("//span[contains(.,'More')]");
         private By _blouseItemElement = By.XPath("//div[3]/div/ul/li[2]/a");
         private By _addToCartBtnBlouseItem = By.XPath("//div[2]/div/ul/li[2]/a");
         private By _clickBlouseMoreBtn = By.XPath("//div[2]/div/ul/li[2]/a");
@@ -28,12 +27,18 @@ namespace XUnitTestProject4.PageObject
         private By _addToCartPrintedDress = By.XPath("//li[2]/div/div[2]/div[2]/a/span");
         private By _clickPrintedDressMoreBtn = By.XPath("//div[2]/div/ul/li[2]/a");
         private By _printedDress2Element = By.XPath("//li[2]/div/div[2]/div[2]/a/span");
-        private By _addToCartPrintedDress2 = By.XPath("//li[2]/div/div[2]/div[2]/a/span");
+        private By _addToCartPrintedDress2 = By.XPath("//li[4]/div/div[2]/div[2]/a/span");
         private By _clickPrintedDress2MoreBtn = By.XPath("//div[2]/a[2]/span");
-        private By _printedSummerDress = By.XPath("//li[2]/div/div[2]/div[2]/a/span");
+        private By _printedSummerDress = By.XPath("//li[2]/div/div[4]/div[2]/a/span");
         private By _addToCartPrintedSummerDress = By.XPath("//div[2]/div/ul/li[2]/a");
-        private By _clickPrintedSummerDrMoreBtn = By.XPath("//div[2]/a[2]/span");
-
+        private By _clickPrintedSummerDrMoreBtn = By.XPath("//div[5]/a[2]/span");
+        private By _printedSummerDress2 = By.XPath("//div[2]/div/ul/li[2]/a");
+        private By _clickPrintedSummerDr2MoreBtn = By.XPath("//div[2]/div/ul/li[2]/a");
+        private By _addToCartPrintedSummerDress2 = By.XPath("/li[7]/div/div[2]/div[2]/a[2]/span");
+        private By _printedChiffonDress = By.LinkText("Printed Chiffon Dress");
+        private By _addToCartPrintedChiffonDress = By.XPath("//div[4]/div/div/span");
+        private By _clickChiffonDressMoreBtn = By.XPath("//li[7]/div/div[2]/h5/a");
+        
         private By _clickButtonShopNow = By.CssSelector(".homeslider-container:nth-child(2) .btn");
         private By _clickNext = By.XPath("//a[contains(text(),'Next')]");
         private By _clickPrev = By.XPath("//a[contains(text(),'Prev')]");
@@ -73,7 +78,7 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_addToCartBtnFadedShortsSleev).Click();
             return this;
         }
-        // Метод, нажимает "Продолжить шоппинг"( один и тот же локатор на все товары).
+        // Метод, нажимает "Продолжить шоппинг"( один и тот же локатор на все продукты).
         public HomePage clickContiniueShoppingBtn()
         {
             _driver.FindElement(_clickContiniueShoppingBtn).Click();
@@ -189,6 +194,53 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_clickPrintedSummerDrMoreBtn).Click();
             return new PrintedSummerDressPage(_driver);
         }
+        // Методы для шестого продукта.
+        public HomePage hoverPrintedSummerDress2()
+        {
+            Actions act = new Actions(_driver);
+            IWebElement element = _driver.FindElement(_printedSummerDress2);
+            act.MoveToElement(element).Perform();
+            return this;
+        }
+        public PrintedSummerDress2Page clickPrintedSummerDress2Elem()
+        {
+            _driver.FindElement(_printedDress2Element).Click();
+            return new PrintedSummerDress2Page(_driver);
+        }
+        public HomePage clickAddToCartPrintedSummerDress2Btn()
+        {
+            _driver.FindElement(_addToCartPrintedSummerDress2).Click();
+            return this;
+        }
+        public PrintedSummerDress2Page clickPrintedSummerDress2MoreBtn()
+        {
+            _driver.FindElement(_clickPrintedSummerDr2MoreBtn).Click();
+            return new PrintedSummerDress2Page(_driver);
+        }
+        // Методы для седьмого продукта.
+        public HomePage hoverPrintedChiffinDress()
+        {
+            Actions act = new Actions(_driver);
+            IWebElement element = _driver.FindElement(_printedChiffonDress);
+            act.MoveToElement(element).Perform();
+            return this;
+        }
+        public PrintedChiffonDressPage clickPrintedChiffonDressElem()
+        {
+            _driver.FindElement(_printedChiffonDress).Click();
+            return new PrintedChiffonDressPage(_driver);
+        }
+        public HomePage clickAddToCartPrintedChiffonDressBtn()
+        {
+            _driver.FindElement(_addToCartPrintedChiffonDress).Click();
+            return this;
+        }
+        public PrintedChiffonDressPage clickPrintedChiffonDressMoreBtn()
+        {
+            _driver.FindElement(_clickChiffonDressMoreBtn).Click();
+            return new PrintedChiffonDressPage(_driver);
+        }
+
 
 
 

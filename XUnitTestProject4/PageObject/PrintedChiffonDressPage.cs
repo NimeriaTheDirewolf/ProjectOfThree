@@ -1,15 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class PrintedChiffonDressPage
+    class PrintedDressPage
     {
         IWebDriver _driver;
 
-        public PrintedChiffonDressPage(IWebDriver driver)
+        public PrintedDressPage(IWebDriver driver)
         {
             _driver = driver;
         }
