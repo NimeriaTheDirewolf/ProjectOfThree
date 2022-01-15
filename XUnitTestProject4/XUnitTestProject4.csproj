@@ -27,9 +27,6 @@
     <None Remove="PageObject\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="PageObject\" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Remove="PageObject\SignIn.cs" />
   </ItemGroup>
 </Project>
