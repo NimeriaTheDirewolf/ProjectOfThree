@@ -7,7 +7,7 @@ using OpenQA.Selenium.Chrome;
 namespace XUnitTestProject4
 {
     public class BaseTest : IDisposable
-    {
+    {// rere
         private IWebDriver _driver;
 
         public IWebDriver StartDriverOnPage(string url)
