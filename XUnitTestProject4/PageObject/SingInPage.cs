@@ -5,7 +5,7 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class SignInPage : Header
+    class SignInPage : HeaderFooter
     {
         public SignInPage(IWebDriver driver)
         {
