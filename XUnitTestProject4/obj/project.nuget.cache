@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QzEM6Z/IQB6Y4LgAQgy688k8GjwrUezoKm5DmhP6yesvc9BR+UZ5N0ioR9bXOlK9nicP8lflmdhqFzaMcuu7sA==",
+  "dgSpecHash": "kucjYIZROtK9Q2NHAbb9PXoIx/BM0DAxVMScW9zwLo8/7xIs8J3k4kb45kPG18vzd+6/K6o6mJEkAWi+pHctxw==",
   "success": true,
-  "projectFilePath": "/Users/innasukhina/Projects/XUnitTestProject4/XUnitTestProject4/XUnitTestProject4.csproj",
+  "projectFilePath": "/Users/innasukhina/Desktop/git_projects/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
   "expectedPackageFiles": [
     "/Users/innasukhina/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
     "/Users/innasukhina/.nuget/packages/microsoft.codecoverage/16.9.4/microsoft.codecoverage.16.9.4.nupkg.sha512",

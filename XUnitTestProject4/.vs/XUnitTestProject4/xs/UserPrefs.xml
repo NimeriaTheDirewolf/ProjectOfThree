@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{0F72BBB2-C04B-486A-AF85-D9803AF9E973}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PageObject/WomenPage.cs">
+    <Files>
+      <File FileName="PageObject/Header.cs" Line="8" Column="2" />
+      <File FileName="PageObject/HomePage.cs" Line="36" Column="2" />
+      <File FileName="UnitTest1.cs" Line="17" Column="25" />
+      <File FileName="PageObject/SearchingResultPage.cs" Line="14" Column="6" />
+      <File FileName="PageObject/ShoppingCardPage.cs" Line="8" Column="42" />
+      <File FileName="PageObject/SingInPage.cs" Line="8" Column="36" />
+      <File FileName="PageObject/SummerDressesPage.cs" Line="8" Column="43" />
+      <File FileName="PageObject/TopsPage.cs" Line="8" Column="34" />
+      <File FileName="PageObject/TshirtPage.cs" Line="8" Column="36" />
+      <File FileName="PageObject/WomenPage.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XUnitTestProject4" expanded="True">
+            <Node name="XUnitTestProject4" expanded="True">
+              <Node name="PageObject" expanded="True">
+                <Node name="WomenPage.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="XUnitTestProject4" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XUnitTestProject4 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

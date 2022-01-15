@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{3B0CACF3-EE8D-45ED-9B2B-EBA5C6110F4B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XUnitTestProject4" expanded="True">
+            <Node name="XUnitTestProject4" expanded="True">
+              <Node name="PageObject" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="XUnitTestProject4" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XUnitTestProject4 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

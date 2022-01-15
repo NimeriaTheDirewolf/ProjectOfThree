@@ -5690,11 +5690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/innasukhina/Projects/XUnitTestProject4/XUnitTestProject4/XUnitTestProject4.csproj",
+      "projectUniqueName": "/Users/innasukhina/Desktop/git_projects/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
       "projectName": "XUnitTestProject4",
-      "projectPath": "/Users/innasukhina/Projects/XUnitTestProject4/XUnitTestProject4/XUnitTestProject4.csproj",
+      "projectPath": "/Users/innasukhina/Desktop/git_projects/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
       "packagesPath": "/Users/innasukhina/.nuget/packages/",
-      "outputPath": "/Users/innasukhina/Projects/XUnitTestProject4/XUnitTestProject4/obj/",
+      "outputPath": "/Users/innasukhina/Desktop/git_projects/ProjectOfThree/XUnitTestProject4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/innasukhina/.config/NuGet/NuGet.Config"

@@ -6,7 +6,7 @@ using OpenQA.Selenium.Interactions;
 
 namespace XUnitTestProject4.PageObject
 {
-    class Header
+    class HeaderFooter
     {
         protected IWebDriver _driver;
 
@@ -31,7 +31,7 @@ namespace XUnitTestProject4.PageObject
         private By _clickSummerDressesFromMainBtn = By.XPath("//div[6]/ul/li[2]/ul/li[3]/a");
         private By _clickTsirtsMainBtn = By.XPath("//div[6]/ul/li[3]/a");
        
-        public Header clickHeaderUpperElemnt()
+        public HeaderFooter clickHeaderUpperElemnt()
         {
             _driver.FindElement(_headerElement).Click();
             return this;
@@ -46,7 +46,7 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_singInBtn).Click();
             return new SignInPage(_driver);
         }
-        public Header clickYourLogoElement()
+        public HeaderFooter clickYourLogoElement()
         {
             _driver.FindElement(_yourLogoElement).Click();
             return this;
@@ -66,7 +66,7 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_clickShoppingCardBtn).Click();
             return new ShoppingCardPage(_driver);
         }
-        public Header hoverWomenDrop()
+        public HeaderFooter hoverWomenDrop()
         {
             Actions act = new Actions(_driver);
             IWebElement element = _driver.FindElement(_hoverWomenDrop);
@@ -123,7 +123,7 @@ namespace XUnitTestProject4.PageObject
             return new DressesPage(_driver);
         }
 
-        public Header hoverDressMainBtn()
+        public HeaderFooter hoverDressMainBtn()
         {
             Actions act = new Actions(_driver);
             IWebElement element = _driver.FindElement(_clickDressesMainBtn);
