@@ -5,6 +5,7 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
+
      class TopsPage: HeaderFooter
     {
         public TopsPage(IWebDriver driver)

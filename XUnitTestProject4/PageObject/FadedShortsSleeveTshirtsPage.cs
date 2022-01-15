@@ -5,8 +5,10 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class FadedShortSleeveTshirts : HeaderFooter
+    class FadedShortSleeveTshirts
     {
+        IWebDriver _driver;
+
         public FadedShortSleeveTshirts(IWebDriver driver)
         {
             _driver = driver;
