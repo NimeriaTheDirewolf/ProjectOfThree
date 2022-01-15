@@ -15,7 +15,7 @@ namespace XUnitTestProject4
         public void BannerTest()
         {
             driver = StartDriverOnPage("http://automationpractice.com/index.php");
-            Header homePage = new HomePage(driver);
+            HeaderFooter homePage = new HomePage(driver);
             homePage.clickHeaderUpperElemnt();
 
         }
@@ -23,7 +23,7 @@ namespace XUnitTestProject4
         public void PopularTest()
         {
             driver = StartDriverOnPage("http://automationpractice.com/index.php");
-            Body homePage = new HomePage(driver);
+            HomePage homePage = new HomePage(driver);
             homePage.clickPopularElement();
 
         }

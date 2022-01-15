@@ -5,12 +5,11 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class SignInPage : HeaderFooter
+    class FadedShortSleeveTshirts : HeaderFooter
     {
-        public SignInPage(IWebDriver driver)
+        public FadedShortSleeveTshirts(IWebDriver driver)
         {
             _driver = driver;
         }
     }
 }
-
