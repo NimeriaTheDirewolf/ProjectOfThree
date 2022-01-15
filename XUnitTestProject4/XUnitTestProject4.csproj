@@ -29,4 +29,8 @@
   <ItemGroup>
     <Compile Remove="PageObject\SignIn.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PageObject\Body\" />
+    <Folder Include="PageObject\Header\" />
+  </ItemGroup>
 </Project>
