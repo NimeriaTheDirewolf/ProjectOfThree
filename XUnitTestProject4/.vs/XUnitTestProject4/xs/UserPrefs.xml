@@ -1,17 +1,22 @@
 ﻿<Properties StartupConfiguration="{0F72BBB2-C04B-486A-AF85-D9803AF9E973}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PageObject/ItemsPages/FadedShortSleeveTshirtsPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PageObject/DressesPage.cs">
     <Files>
       <File FileName="PageObject/Header.cs" Line="8" Column="2" />
       <File FileName="PageObject/HomePage.cs" Line="9" Column="34" />
-      <File FileName="UnitTest1.cs" Line="17" Column="25" />
+      <File FileName="UnitTest1.cs" Line="7" Column="1" />
       <File FileName="PageObject/SearchingResultPage.cs" Line="14" Column="6" />
       <File FileName="PageObject/ShoppingCardPage.cs" Line="8" Column="42" />
       <File FileName="PageObject/SingInPage.cs" Line="8" Column="36" />
       <File FileName="PageObject/SummerDressesPage.cs" Line="8" Column="43" />
       <File FileName="PageObject/TopsPage.cs" Line="8" Column="34" />
-      <File FileName="PageObject/TshirtPage.cs" Line="8" Column="36" />
-      <File FileName="PageObject/WomenPage.cs" Line="4" Column="23" />
-      <File FileName="PageObject/ItemsPages/FadedShortSleeveTshirtsPage.cs" Line="2" Column="50" />
+      <File FileName="PageObject/TshirtPage.cs" Line="16" Column="1" />
+      <File FileName="PageObject/WomenPage.cs" Line="8" Column="24" />
+      <File FileName="PageObject/ItemsPages/FadedShortSleeveTshirtsPage.cs" Line="16" Column="2" />
+      <File FileName="PageObject/BlousesPage.cs" Line="1" Column="1" />
+      <File FileName="PageObject/CasualDressesPage.cs" Line="1" Column="1" />
+      <File FileName="PageObject/ContactUsPage.cs" Line="1" Column="1" />
+      <File FileName="PageObject/EveningDressesPage.cs" Line="8" Column="44" />
+      <File FileName="PageObject/DressesPage.cs" Line="8" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +24,7 @@
           <Node name="XUnitTestProject4" expanded="True">
             <Node name="XUnitTestProject4" expanded="True">
               <Node name="PageObject" expanded="True">
-                <Node name="ItemsPages" expanded="True">
-                  <Node name="FadedShortSleeveTshirtsPage.cs" selected="True" />
-                </Node>
+                <Node name="DressesPage.cs" selected="True" />
               </Node>
             </Node>
           </Node>
