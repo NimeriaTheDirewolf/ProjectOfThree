@@ -88,6 +88,7 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_clickBanner6).Click();
             return new HomePage(_driver);
         }
+        
        
     }
 }
