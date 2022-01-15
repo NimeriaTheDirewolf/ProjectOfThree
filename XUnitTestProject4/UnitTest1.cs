@@ -27,5 +27,12 @@ namespace XUnitTestProject4
             homePage.clickPopularElement();
 
         }
+        [Fact]
+        public void TestNext()
+        {
+            driver = StartDriverOnPage("http://automationpractice.com/index.php");
+            HomePage homePage = new HomePage(driver);
+
+        }
     }
 }
