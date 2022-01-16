@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using OpenQA.Selenium;
+using XUnitTestProject4.PageObject.Footer;
 
 namespace XUnitTestProject4.PageObject
 {
-    class SignInPage : HeaderFooter
+    public class SignInPage : HeaderFooter
     {
         public SignInPage(IWebDriver driver)
         {
@@ -29,10 +30,10 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_fieldEmailRegister).SendKeys(Keys.Enter);
             return new SignInPage(_driver);
         }
-        public SignInPage clickCreate()
+        public ButtonCreate clickCreate()
         {
             _driver.FindElement(_clickCreate).Click();
-            return new SignInPage(_driver);
+            return new ButtonCreate(_driver);
         }
         public SignInPage writeEmailLogin()
         {
@@ -46,15 +47,15 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_fieldPasword).SendKeys(Keys.Enter);
             return new SignInPage(_driver);
         }
-        public SignInPage clickButtonSignIn()
+        public ButtonSignIn clickButtonSignIn()
         {
             _driver.FindElement(_clickButtonSignIn).Click();
-            return new SignInPage(_driver);
+            return new ButtonSignIn(_driver);
         }
-        public SignInPage clickButtonForgot()
+        public ButtonForgot clickButtonForgot()
         {
             _driver.FindElement(_clickButtonGorgot).Click();
-            return new SignInPage(_driver);
+            return new ButtonForgot(_driver);
         }
     }
 }
