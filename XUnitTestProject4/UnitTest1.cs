@@ -11,20 +11,14 @@ namespace XUnitTestProject4
     {
         IWebDriver driver;
 
-        [Fact]
-        public void BannerTest()
-        {
-            driver = StartDriverOnPage("http://automationpractice.com/index.php");
-            HeaderFooter homePage = new HomePage(driver);
-            homePage.clickHeaderUpperElemnt();
-
-        }
+       
         [Fact]
         public void PopularTest()
         {
             driver = StartDriverOnPage("http://automationpractice.com/index.php");
-            HomePage homePage = new HomePage(driver);
-            homePage.clickPopularElement();
+            HeaderFooter homePage = new HomePage(driver);
+           
+          
 
         }
     }
