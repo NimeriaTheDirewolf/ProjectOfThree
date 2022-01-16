@@ -19,6 +19,7 @@ namespace XUnitTestProject4.PageObject.Account
         private readonly By _genderMrs = By.XPath("//div[2]/label/div/span/input");
         private readonly By _firstNameField = By.Name("customer_firstname");
         private readonly By _lastNameField = By.Name("customer_lastname");
+        private readonly By _eMailField = By.Id("email");
         private readonly By _passwordField = By.Id("passwd");
         private readonly By _dayBirthBtn = By.Id("days");
         private readonly By _monthsBirthBtn = By.Id("months");
@@ -64,6 +65,11 @@ namespace XUnitTestProject4.PageObject.Account
         public AccountCreationPage inputLastNamee(string lastName)
         {
             _driver.FindElement(_lastNameField).SendKeys(lastName);
+            return this;
+        }
+        public AccountCreationPage inputEmail(string eMail)
+        {
+            _driver.FindElement(_eMailField).SendKeys(eMail);
             return this;
         }
 
