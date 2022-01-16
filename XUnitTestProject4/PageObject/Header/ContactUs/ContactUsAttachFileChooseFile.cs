@@ -6,7 +6,7 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class ContactUsAttachFileChooseFile : HeaderFooter
+    public class ContactUsAttachFileChooseFile : Header
     {
         public ContactUsAttachFileChooseFile(IWebDriver driver)
         {

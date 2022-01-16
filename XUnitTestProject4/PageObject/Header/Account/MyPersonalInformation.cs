@@ -7,7 +7,7 @@ using OpenQA.Selenium.Interactions;
 namespace XUnitTestProject4.PageObject.Account
 {     
     // Инна.
-      class MyPersonalInformation:HeaderFooter
+      class MyPersonalInformation:Header
     {
         public MyPersonalInformation(IWebDriver driver)
         {

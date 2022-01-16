@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class EveningDressesPage : HeaderFooter
+    public class ContactUsMessage : Header
     {
-        public EveningDressesPage(IWebDriver driver)
+        public ContactUsMessage(IWebDriver driver)
         {
             _driver = driver;
         }

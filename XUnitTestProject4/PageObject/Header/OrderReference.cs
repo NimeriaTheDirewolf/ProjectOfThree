@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class ShoppingCardPage: HeaderFooter
+    public class OrderReference : Header
     {
-        public ShoppingCardPage(IWebDriver driver)
+        public OrderReference(IWebDriver driver)
         {
             _driver = driver;
         }

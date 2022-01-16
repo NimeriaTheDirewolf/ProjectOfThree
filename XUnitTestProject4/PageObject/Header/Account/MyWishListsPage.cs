@@ -7,7 +7,7 @@ using OpenQA.Selenium.Interactions;
 namespace XUnitTestProject4.PageObject.Account
 {  
     // Инна.
-    class MyWishListsPage:HeaderFooter
+    class MyWishListsPage:Header
     {
         public MyWishListsPage(IWebDriver driver)
         {

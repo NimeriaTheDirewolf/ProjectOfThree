@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class EmaiLaddress : HeaderFooter
+    public class TshirtPage : Header
     {
-        public EmaiLaddress(IWebDriver driver)
+        public TshirtPage(IWebDriver driver)
         {
             _driver = driver;
         }

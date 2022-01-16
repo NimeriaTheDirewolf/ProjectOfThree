@@ -8,7 +8,7 @@ using OpenQA.Selenium.Chrome;
 
 namespace XUnitTestProject4.PageObject 
 { 
-    public class ContactUsSubjectHeading : HeaderFooter
+    public class ContactUsSubjectHeading : Header
     {
         public ContactUsSubjectHeading(IWebDriver driver)
         {

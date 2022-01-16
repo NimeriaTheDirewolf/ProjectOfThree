@@ -25,18 +25,38 @@
     <None Remove="Selenium.WebDriver.ChromeDriver" />
     <None Remove="Selenium.WebDriver" />
     <None Remove="PageObject\" />
-    <None Remove="PageObject\Header\**" />
-    <None Remove="PageObject\Body\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="PageObject\SignIn.cs" />
     <Compile Remove="PageObject\ButtonNext.cs" />
     <Compile Remove="PageObject\Header.cs" />
-    <Compile Remove="PageObject\Header\**" />
-    <Compile Remove="PageObject\Body\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Remove="PageObject\Header\**" />
-    <EmbeddedResource Remove="PageObject\Body\**" />
+    <Compile Include="PageObject\Body\BlouseItemPage.cs" />
+    <Compile Include="PageObject\Body\FadedShortsSleeveTshirtsPage.cs" />
+    <Compile Include="PageObject\Body\HomePage.cs" />
+    <Compile Include="PageObject\Body\PrintedChiffonDressPage.cs" />
+    <Compile Include="PageObject\Body\PrintedDress2Page.cs" />
+    <Compile Include="PageObject\Body\PrintedDressPage.cs" />
+    <Compile Include="PageObject\Body\PrintedSummerDress2Page.cs" />
+    <Compile Include="PageObject\Body\PrintedSummerDressPage.cs" />
+    <Compile Include="PageObject\Header\Account\AccountCreationPage.cs" />
+    <Compile Include="PageObject\Header\Account\MyWishListsPage.cs" />
+    <Compile Include="PageObject\Header\BlousesPage.cs" />
+    <Compile Include="PageObject\Header\ButtonCreate.cs" />
+    <Compile Include="PageObject\Header\ButtonSignIn.cs" />
+    <Compile Include="PageObject\Header\CasualDressesPage.cs" />
+    <Compile Include="PageObject\Header\ContactUs\ContactUsAttachFile.cs" />
+    <Compile Include="PageObject\Header\ContactUs\ContactUsPage.cs" />
+    <Compile Include="PageObject\Header\DressesPage.cs" />
+    <Compile Include="PageObject\Header\EmaiLaddress.cs" />
+    <Compile Include="PageObject\Header\EveningDressesPage.cs" />
+    <Compile Include="PageObject\Header\HeaderFooter.cs" />
+    <Compile Include="PageObject\Header\OrderReference.cs" />
+    <Compile Include="PageObject\Header\SearchingResultPage.cs" />
+    <Compile Include="PageObject\Header\ShoppingCardPage.cs" />
+    <Compile Include="PageObject\Header\SingInPage.cs" />
+    <Compile Include="PageObject\Header\SummerDressesPage.cs" />
+    <Compile Include="PageObject\Header\TopsPage.cs" />
+    <Compile Include="PageObject\Header\TshirtPage.cs" />
+    <Compile Include="PageObject\Header\WomenPage.cs" />
   </ItemGroup>
 </Project>

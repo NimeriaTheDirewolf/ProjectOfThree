@@ -5,11 +5,12 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class BlousesPage : HeaderFooter
+    public class SearchResultPage : Header
     {
-        public BlousesPage(IWebDriver driver)
+        public SearchResultPage(IWebDriver driver)
         {
             _driver = driver;
         }
     }
 }
+

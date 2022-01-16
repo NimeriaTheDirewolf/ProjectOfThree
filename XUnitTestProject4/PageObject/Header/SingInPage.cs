@@ -6,7 +6,7 @@ using XUnitTestProject4.PageObject.Footer;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class SignInPage : HeaderFooter
+    public class SignInPage : Header
     {
         public SignInPage(IWebDriver driver)
         {

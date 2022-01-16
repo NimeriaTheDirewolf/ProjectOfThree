@@ -1,7 +1,7 @@
 using OpenQA.Selenium;
 namespace XUnitTestProject4.PageObject
 {
-    public class ButtonSignIn : HeaderFooter
+    public class ButtonSignIn : Header
     {
         IWebDriver _driver;
 

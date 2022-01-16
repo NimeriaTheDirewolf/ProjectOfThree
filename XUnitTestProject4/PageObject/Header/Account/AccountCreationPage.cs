@@ -7,7 +7,7 @@ using OpenQA.Selenium.Interactions;
 namespace XUnitTestProject4.PageObject.Account
 {   
     // Инна.
-    class AccountCreationPage:HeaderFooter
+    class AccountCreationPage:Header
     {
         public AccountCreationPage(IWebDriver driver)
         {

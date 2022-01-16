@@ -5,9 +5,9 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class CasualDressesPage : HeaderFooter
+    public class SummerDressesPage : Header
     {
-        public CasualDressesPage(IWebDriver driver)
+        public SummerDressesPage(IWebDriver driver)
         {
             _driver = driver;
         }
