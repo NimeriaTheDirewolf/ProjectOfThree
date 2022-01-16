@@ -6,9 +6,8 @@ using OpenQA.Selenium.Interactions;
 
 namespace XUnitTestProject4.PageObject
 {
-    class HomePage 
-    {   
-        //Инна и Катя.
+     class HomePage 
+    {
         public HomePage(IWebDriver driver)
         {
             _driver = driver;
@@ -39,7 +38,6 @@ namespace XUnitTestProject4.PageObject
         private By _printedChiffonDress = By.LinkText("Printed Chiffon Dress");
         private By _addToCartPrintedChiffonDress = By.XPath("//div[4]/div/div/span");
         private By _clickChiffonDressMoreBtn = By.XPath("//li[7]/div/div[2]/h5/a");
-        
         private By _clickButtonShopNow = By.CssSelector(".homeslider-container:nth-child(2) .btn");
         private By _clickNext = By.XPath("//a[contains(text(),'Next')]");
         private By _clickPrev = By.XPath("//a[contains(text(),'Prev')]");
@@ -241,11 +239,6 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_clickChiffonDressMoreBtn).Click();
             return new PrintedChiffonDressPage(_driver);
         }
-
-
-
-
-
         public HomePage buttonShopNow()
         {
             _driver.FindElement(_clickButtonShopNow).Click();
@@ -293,9 +286,7 @@ namespace XUnitTestProject4.PageObject
         {
             _driver.FindElement(_clickBanner6).Click();
             return new HomePage(_driver);
-        }
-        
-       
+        }  
 
     }
 }

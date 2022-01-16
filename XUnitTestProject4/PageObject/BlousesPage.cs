@@ -5,7 +5,7 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class BlousesPage : HeaderFooter
+    public class BlousesPage : HeaderFooter
     {
         public BlousesPage(IWebDriver driver)
         {

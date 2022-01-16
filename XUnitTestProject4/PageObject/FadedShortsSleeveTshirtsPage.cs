@@ -5,7 +5,7 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class FadedShortSleeveTshirts
+    public class FadedShortSleeveTshirts
     {
         IWebDriver _driver;
 

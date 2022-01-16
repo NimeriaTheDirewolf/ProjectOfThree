@@ -12,13 +12,11 @@ namespace XUnitTestProject4
         IWebDriver driver;
 
        
+
         [Fact]
         public void PopularTest()
         {
-            
-           
-          
-
+        
         }
     }
-}
+

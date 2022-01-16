@@ -6,7 +6,7 @@ using OpenQA.Selenium.Interactions;
 
 namespace XUnitTestProject4.PageObject
 {
-    class HeaderFooter
+   public class HeaderFooter
     {
         protected IWebDriver _driver;
 
@@ -153,6 +153,5 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_clickTsirtsMainBtn).Click();
             return new TshirtPage(_driver);
         }
-        
     }
 }
