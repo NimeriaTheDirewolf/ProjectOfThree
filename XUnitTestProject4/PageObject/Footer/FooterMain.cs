@@ -9,7 +9,7 @@ using XUnitTestProject4.PageObject.Footer;
 
 namespace XUnitTestProject4.PageObject
 {
-    public class FooterMain 
+    public class FooterMain
     {
         protected IWebDriver _driver;
         // ves Footer Vlad
