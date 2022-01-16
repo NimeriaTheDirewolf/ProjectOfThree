@@ -5685,19 +5685,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/ekaterinasugaj/.nuget/packages/": {}
+    "/Users/innasukhina/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
+      "projectUniqueName": "/Users/innasukhina/git_projects/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
       "projectName": "XUnitTestProject4",
-      "projectPath": "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
-      "packagesPath": "/Users/ekaterinasugaj/.nuget/packages/",
-      "outputPath": "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/obj/",
+      "projectPath": "/Users/innasukhina/git_projects/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
+      "packagesPath": "/Users/innasukhina/.nuget/packages/",
+      "outputPath": "/Users/innasukhina/git_projects/ProjectOfThree/XUnitTestProject4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ekaterinasugaj/.nuget/NuGet/NuGet.Config"
+        "/Users/innasukhina/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5765,7 +5765,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }
