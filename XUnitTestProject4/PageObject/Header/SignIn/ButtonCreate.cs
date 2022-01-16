@@ -6,7 +6,6 @@ using OpenQA.Selenium;
 namespace  XUnitTestProject4.PageObject
 {
     public class ButtonCreate : Header
-
     {
         public ButtonCreate(IWebDriver driver)
     {
