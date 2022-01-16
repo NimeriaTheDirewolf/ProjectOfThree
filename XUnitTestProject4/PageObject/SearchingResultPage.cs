@@ -5,7 +5,7 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class SearchResultPage : HeaderFooter
+    public class SearchResultPage : HeaderFooter
     {
         public SearchResultPage(IWebDriver driver)
         {
