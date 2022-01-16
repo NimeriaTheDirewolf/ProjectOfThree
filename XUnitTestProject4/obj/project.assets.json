@@ -5685,24 +5685,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/innasukhina/.nuget/packages/": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/innasukhina/git_projects/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Source\\Repos\\ProjectOfThree\\XUnitTestProject4\\XUnitTestProject4.csproj",
       "projectName": "XUnitTestProject4",
-      "projectPath": "/Users/innasukhina/git_projects/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
-      "packagesPath": "/Users/innasukhina/.nuget/packages/",
-      "outputPath": "/Users/innasukhina/git_projects/ProjectOfThree/XUnitTestProject4/obj/",
+      "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\ProjectOfThree\\XUnitTestProject4\\XUnitTestProject4.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Source\\Repos\\ProjectOfThree\\XUnitTestProject4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/innasukhina/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5760,12 +5762,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
