@@ -19,7 +19,7 @@ namespace XUnitTestProject4.PageObject.Account
         private readonly By _saveBtn = By.XPath("//span[contains(.,'Save')]");
         private readonly By _homeBtn = By.XPath("//span[contains(.,' Home')]");
         
-        public HomePage ckickHomeHouseBtn()
+        public HomePage clickHomeHouseBtn()
         {
             _driver.FindElement(_homeHouseBtn).Click();
             return new HomePage(_driver);
@@ -43,7 +43,6 @@ namespace XUnitTestProject4.PageObject.Account
         {
             _driver.FindElement(_homeBtn).Click();
             return new HomePage(_driver);
-        }
-       
+        }  
     }
 }
