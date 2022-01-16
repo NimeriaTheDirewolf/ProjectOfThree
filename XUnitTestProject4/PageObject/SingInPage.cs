@@ -5,12 +5,10 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-  class SignInPage : HeaderFooter
+  public class SignInPage : HeaderFooter
     {
-        public SignInPage(IWebDriver driver)
-        {
-            _driver = driver;
-        }
+       protected IWebDriver _driver;
+
         private By _clickSignIn = By.LinkText("Sign in");
         private By _fieldEmailRegister = By.Id("email_create");
         private By _clickCreate = By.CssSelector("#SubmitCreate > span");
@@ -18,6 +16,13 @@ namespace XUnitTestProject4.PageObject
         private By _fieldPasword = By.Id("passwd");
         private  By _clickButtonSignIn = By.CssSelector("#SubmitLogin > span");
         private By _clickButtonGorgot = By.LinkText("Forgot your password?");
+        private IWebDriver driver;
+
+        public SignInPage(IWebDriver driver)
+        {
+            this.driver = driver;
+        }
+
         public HomePage clickSignIn()
         {
             _driver.FindElement(_clickSignIn).Click();

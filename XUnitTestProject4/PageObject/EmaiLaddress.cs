@@ -8,7 +8,7 @@ using OpenQA.Selenium.Chrome;
 
 namespace XUnitTestProject4.PageObject
 {
-    public public class EmaiLaddress : HeaderFooter
+    public class EmaiLaddress : HeaderFooter
     {
         public EmaiLaddress(IWebDriver driver)
         {
