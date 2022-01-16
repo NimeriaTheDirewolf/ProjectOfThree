@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using OpenQA.Selenium;
-
 namespace XUnitTestProject4.PageObject
 {
-    public class BlouseItemPage
+    public class ButtonSignIn : HeaderFooter
     {
         IWebDriver _driver;
 
-        public BlouseItemPage(IWebDriver driver)
+        public ButtonSignIn(IWebDriver driver)
         {
             _driver = driver;
         }

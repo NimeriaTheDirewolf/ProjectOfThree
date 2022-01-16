@@ -6,7 +6,7 @@ using OpenQA.Selenium.Interactions;
 
 namespace XUnitTestProject4.PageObject
 {
-    class HeaderFooter
+   public class HeaderFooter
     {
         protected IWebDriver _driver;
 
@@ -154,10 +154,10 @@ namespace XUnitTestProject4.PageObject
             return new TshirtPage(_driver);
         }
 
-        public static implicit operator HeaderFooter(HomePage v)
-        {
-            throw new NotImplementedException();
-        }
+        // public static implicit operator HeaderFooter(HomePage v)
+        // {
+        //     throw new NotImplementedException();
+        // }
 
         private By _footerBarAbouteUs = By.LinkText("About us");
         private By _footerBarBestSellers = By.LinkText("Best sellers");

@@ -5,7 +5,7 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
-    class PrintedSummerDressPage
+    public class PrintedSummerDressPage
     {
         IWebDriver _driver;
 
