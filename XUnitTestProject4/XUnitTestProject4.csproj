@@ -45,8 +45,6 @@
     <Compile Include="PageObject\Header\Account\OrderHistoryDetails.cs" />
     <Compile Include="PageObject\Header\Account\YourAddresses.cs" />
     <Compile Include="PageObject\Header\BlousesPage.cs" />
-    <Compile Include="PageObject\Header\ButtonCreate.cs" />
-    <Compile Include="PageObject\Header\ButtonSignIn.cs" />
     <Compile Include="PageObject\Header\CasualDressesPage.cs" />
     <Compile Include="PageObject\Header\ContactUs\ContactUsAttachFile.cs" />
     <Compile Include="PageObject\Header\ContactUs\ContactUsPage.cs" />
@@ -57,10 +55,10 @@
     <Compile Include="PageObject\Header\OrderReference.cs" />
     <Compile Include="PageObject\Header\SearchingResultPage.cs" />
     <Compile Include="PageObject\Header\ShoppingCardPage.cs" />
-    <Compile Include="PageObject\Header\SingInPage.cs" />
     <Compile Include="PageObject\Header\SummerDressesPage.cs" />
     <Compile Include="PageObject\Header\TopsPage.cs" />
     <Compile Include="PageObject\Header\TshirtPage.cs" />
     <Compile Include="PageObject\Header\WomenPage.cs" />
+    <Compile Remove="PageObject\Product\ClickPlusButton.cs" />
   </ItemGroup>
 </Project>
