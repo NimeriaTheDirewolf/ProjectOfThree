@@ -12,6 +12,8 @@ namespace XUnitTestProject4.PageObject.Account
         {
             _driver = driver;
         }
+
+        private readonly By _homeBtn = By.XPath("//div[@id='columns']/div/a/i");
         private readonly By _genderMr = By.XPath("//div[@id='uniform-id_gender1']/span/input");
         private readonly By _genderMrs = By.XPath("//div[2]/label/div/span/input");
         private readonly By _firstNameField = By.Name("customer_firstname");
@@ -37,6 +39,11 @@ namespace XUnitTestProject4.PageObject.Account
         private readonly By _asinAliasAddressField = By.XPath("//input[@id='alias']");
         private readonly By _registerBtn = By.XPath("//input[@id='customer_lastname']");
         
+        public HomePage clickHomeBtn()
+        {
+            _driver.FindElement(_homeBtn).Click();
+            return new HomePage(_driver);
+        }
         public AccountCreationPage clickGenderMr()
         {
             _driver.FindElement(_genderMr).Click();
