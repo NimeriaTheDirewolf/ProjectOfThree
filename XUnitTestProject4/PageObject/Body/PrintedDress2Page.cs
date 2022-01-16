@@ -5,6 +5,8 @@ using OpenQA.Selenium;
 
 namespace XUnitTestProject4.PageObject
 {
+    // Инна. 
+    
     public class PrintedDress2Page
     {
         IWebDriver _driver;
