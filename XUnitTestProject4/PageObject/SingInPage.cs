@@ -7,8 +7,7 @@ namespace XUnitTestProject4.PageObject
 {
   public class SignInPage : HeaderFooter
     {
-       protected IWebDriver _driver;
-
+       
         private By _clickSignIn = By.LinkText("Sign in");
         private By _fieldEmailRegister = By.Id("email_create");
         private By _clickCreate = By.CssSelector("#SubmitCreate > span");
