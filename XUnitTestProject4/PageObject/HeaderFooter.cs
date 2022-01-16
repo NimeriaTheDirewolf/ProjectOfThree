@@ -153,6 +153,11 @@ namespace XUnitTestProject4.PageObject
             _driver.FindElement(_clickTsirtsMainBtn).Click();
             return new TshirtPage(_driver);
         }
+
+        public static implicit operator HeaderFooter(HomePage v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     
