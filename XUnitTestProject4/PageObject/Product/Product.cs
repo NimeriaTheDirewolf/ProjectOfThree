@@ -2,7 +2,7 @@ using OpenQA.Selenium;
 namespace XUnitTestProject4.PageObject.Product
 {
     public class Product: Header
-    {
+    { //делала Катя
         public Product(IWebDriver driver)
         {
             _driver = driver;

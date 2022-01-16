@@ -8,7 +8,7 @@ namespace XUnitTestProject4.PageObject
 {
     // Катя.
     public class SignInPage : Header
-    {
+    { //делала Катя
         public SignInPage(IWebDriver driver)
         {
             _driver = driver;
