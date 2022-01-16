@@ -6,7 +6,7 @@ using OpenQA.Selenium.Interactions;
 
 namespace XUnitTestProject4.PageObject
 {
-     class HomePage 
+     public class HomePage 
     {
         public HomePage(IWebDriver driver)
         {

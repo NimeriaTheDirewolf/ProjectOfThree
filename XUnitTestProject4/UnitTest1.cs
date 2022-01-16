@@ -7,16 +7,14 @@ using XUnitTestProject4.PageObject;
 
 namespace XUnitTestProject4
 {
-    public class UnitTest1:BaseTest
+    public class UnitTest1 : BaseTest
     {
         IWebDriver driver;
-
-       
 
         [Fact]
         public void PopularTest()
         {
-        
+
         }
     }
-
+}
