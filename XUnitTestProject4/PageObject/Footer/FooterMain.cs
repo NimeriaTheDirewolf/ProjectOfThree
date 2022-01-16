@@ -9,6 +9,7 @@ using XUnitTestProject4.PageObject.Footer;
 
 namespace XUnitTestProject4.PageObject
 {
+    // Влад.
     public class FooterMain 
     {
         protected IWebDriver _driver;
