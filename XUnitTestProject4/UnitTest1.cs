@@ -15,8 +15,7 @@ namespace XUnitTestProject4
         [Fact]
         public void PopularTest()
         {
-            driver = StartDriverOnPage("http://automationpractice.com/index.php");
-            HeaderFooter homePage = new HomePage(driver);
+            
            
           
 

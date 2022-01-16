@@ -7,7 +7,8 @@ using OpenQA.Selenium.Interactions;
 namespace XUnitTestProject4.PageObject
 {
     class HomePage 
-    {
+    {   
+        //Инна и Катя.
         public HomePage(IWebDriver driver)
         {
             _driver = driver;
