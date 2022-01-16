@@ -39,7 +39,11 @@
     <Compile Include="PageObject\Body\PrintedSummerDress2Page.cs" />
     <Compile Include="PageObject\Body\PrintedSummerDressPage.cs" />
     <Compile Include="PageObject\Header\Account\AccountCreationPage.cs" />
+    <Compile Include="PageObject\Header\Account\MyAdresses.cs" />
+    <Compile Include="PageObject\Header\Account\MyCreditSlips.cs" />
     <Compile Include="PageObject\Header\Account\MyWishListsPage.cs" />
+    <Compile Include="PageObject\Header\Account\OrderHistoryDetails.cs" />
+    <Compile Include="PageObject\Header\Account\YourAddresses.cs" />
     <Compile Include="PageObject\Header\BlousesPage.cs" />
     <Compile Include="PageObject\Header\ButtonCreate.cs" />
     <Compile Include="PageObject\Header\ButtonSignIn.cs" />
