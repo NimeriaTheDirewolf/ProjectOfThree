@@ -53,7 +53,7 @@
     <Compile Include="PageObject\Header\DressesPage.cs" />
     <Compile Include="PageObject\Header\EmaiLaddress.cs" />
     <Compile Include="PageObject\Header\EveningDressesPage.cs" />
-    <Compile Include="PageObject\Header\HeaderFooter.cs" />
+    <Compile Include="PageObject\Header\Header.cs" />
     <Compile Include="PageObject\Header\OrderReference.cs" />
     <Compile Include="PageObject\Header\SearchingResultPage.cs" />
     <Compile Include="PageObject\Header\ShoppingCardPage.cs" />
