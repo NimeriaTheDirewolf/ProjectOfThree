@@ -6,7 +6,7 @@ using OpenQA.Selenium.Interactions;
 
 namespace XUnitTestProject4.PageObject
 {
-    class HeaderFooter
+    public class HeaderFooter
     {
         protected IWebDriver _driver;
 

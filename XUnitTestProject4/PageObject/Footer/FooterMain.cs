@@ -12,7 +12,7 @@ namespace XUnitTestProject4.PageObject
     public class FooterMain 
     {
         protected IWebDriver _driver;
-
+        // ves Footer Vlad
         private By _footerBarAbouteUs = By.LinkText("About us");
         private By _footerBarBestSellers = By.LinkText("Best sellers");
         private By _footerBarContactUs = By.LinkText("Contact us");

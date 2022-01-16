@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\Новая папка (2)\\ProjectOfThree\\XUnitTestProject4\\XUnitTestProject4.csproj": {}
   },
   "projects": {
-    "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Новая папка (2)\\ProjectOfThree\\XUnitTestProject4\\XUnitTestProject4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Новая папка (2)\\ProjectOfThree\\XUnitTestProject4\\XUnitTestProject4.csproj",
         "projectName": "XUnitTestProject4",
-        "projectPath": "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/XUnitTestProject4.csproj",
-        "packagesPath": "/Users/ekaterinasugaj/.nuget/packages/",
-        "outputPath": "/Users/ekaterinasugaj/ProjectOfThree/XUnitTestProject4/obj/",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Новая папка (2)\\ProjectOfThree\\XUnitTestProject4\\XUnitTestProject4.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Новая папка (2)\\ProjectOfThree\\XUnitTestProject4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ekaterinasugaj/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,12 +79,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
